@@ -1,4 +1,4 @@
-target/
+homework/.idea
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
@@ -8,6 +8,7 @@ target/
 .idea/jarRepositories.xml
 .idea/compiler.xml
 .idea/libraries/
+homework
 *.iws
 *.iml
 *.ipr
@@ -37,3 +38,7 @@ build/
 ### Mac OS ###
 .DS_Store
 /.idea/
+/homework/.idea/
+/homework/.idea/
+/homework/
+/homework/
