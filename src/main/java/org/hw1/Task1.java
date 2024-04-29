@@ -6,7 +6,8 @@ public class Task1 {
     public static void greetings() {
         System.out.print("Hello\nWorld\nfrom\nJava");
     }
+
     public static void main(String[] args) {
         greetings();
-        }
+    }
 }
