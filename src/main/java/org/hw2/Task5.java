@@ -38,10 +38,7 @@ public class Task5 {
             if (r == l) {
                 System.out.println("суммы половин равны");
             }
-
         }
-
-
     }
 
     public static void main(String[] args) {
