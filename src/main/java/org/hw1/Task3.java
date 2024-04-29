@@ -14,8 +14,6 @@ public class Task3 {
         if (data > 20) {
             System.out.println("Зеленый");
         }
-
-
     }
 
     public static void main(String[] args) {
