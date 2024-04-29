@@ -1,6 +1,6 @@
 package org.hw3;
 
-public class Task3 {
+public class Task2 {
 
     public static void Square(int size) {
         for (int i = 1; i <= size; i++) {
