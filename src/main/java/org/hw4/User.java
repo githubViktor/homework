@@ -18,7 +18,7 @@ public class User {
     }
 
     public void info() {
-        System.out.println("ФИО: " + surname + ' ' + name + ' ' + secondname + '\n');
+        System.out.println("ФИО: " + secondname + ' ' + name + ' ' + surname + '\n');
         System.out.println("Год рождения: " + birth + '\n');
         System.out.println("e-mail " + email + '\n');
 
@@ -26,7 +26,7 @@ public class User {
 
     public void info(int age) {
         if (this.age > age) {
-            System.out.println("ФИО: " + surname + ' ' + name + ' ' + secondname + '\n');
+            System.out.println("ФИО: " + secondname + ' ' + name + ' ' + surname + '\n');
             System.out.println("Год рождения: " + birth + '\n');
             System.out.println("e-mail " + email + '\n');
         }
