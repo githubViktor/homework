@@ -1,8 +1,8 @@
 package org.hw4;
-import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
+//        задание с классом User
         User[] users = new User[10];
         Random r = new Random();
         for (int i = 0; i <= 9; i++) {
@@ -16,6 +16,18 @@ public class Main {
         for (int i = 0; i <= 9; i++) {
             users[i].info(40);
         }
+
+//        задание с коробкой
+        Box testbox = new Box("black", 5);
+        testbox.getInfo();
+        testbox.open(true);
+        testbox.put("предмет1");
+        testbox.put("предмет2");
+        testbox.put("предмет3");
+        testbox.get("предмет2");
+        testbox.getInfo();
+        testbox.put("item1");
+        testbox.getInfo();
 
     }
 
