@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 //        задание с классом User
         User[] users = new User[10];
-        Random r = new Random();
         for (int i = 0; i <= 9; i++) {
             int name = (int) (Math.random() * (90 - 65 + 1) + 65);
             int surname = (int) (Math.random() * (90 - 65 + 1) + 65);
