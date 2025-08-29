@@ -30,7 +30,11 @@ public class Box {
     public void open(boolean isopen){
         this.isopen = isopen;
     }
-
+    public void close(boolean isopen){
+        if(isopen){
+            this.isopen = false;
+        }
+    }
     public void put(String item){
         if(isopen & box.length >= size){
             for(int i = 0; i<=box.length-size;i++){

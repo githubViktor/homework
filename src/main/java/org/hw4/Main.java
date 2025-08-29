@@ -20,6 +20,7 @@ public class Main {
         Box testbox = new Box("black", 5);
         testbox.getInfo();
         testbox.open(true);
+        testbox.close(false); // это добавил giga code
         testbox.put("предмет1");
         testbox.put("предмет2");
         testbox.put("предмет3");
